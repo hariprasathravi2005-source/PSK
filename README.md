@@ -1,16 +1,10 @@
-# PSK & QPSK:
 
 # Aim
 Write a simple Python program for the modulation and demodulation of PSK and QPSK.
-
 # Tools required
-Python colab
-
-# Program
-
-## PSK
+Co-Lab
+# Program PSK 
 ```
-#PSK
 import numpy as np
 import matplotlib.pyplot as plt
 from scipy.signal import butter, lfilter
@@ -64,11 +58,12 @@ plt.legend()
 plt.tight_layout()
 plt.show()
 ```
+# Output Waveform PSK:
 
-## QPSK
+<img width="578" height="328" alt="image" src="https://github.com/user-attachments/assets/e056d839-d438-473d-a54d-a070ca57550e" />
 
+# Program QPSK 
 ```
-#QPSK
 import numpy as np
 import matplotlib.pyplot as plt
 
@@ -146,19 +141,8 @@ plt.tight_layout()
 plt.grid(True)
 plt.show()
 ```
-# Output Waveform
-
-## PSK
-
-<img width="1190" height="790" alt="image" src="https://github.com/user-attachments/assets/1f77cdad-4bd3-4a77-a1d8-57f82c9e19d9" />
-
-## QPSK
-
-<img width="989" height="590" alt="image" src="https://github.com/user-attachments/assets/87e22c6f-fe93-4bd0-a772-c8563c672931" />
-
+# Output Waveform QPSK:
+<img width="530" height="249" alt="image" src="https://github.com/user-attachments/assets/608ac6bc-68ed-428a-bed1-453c9287aa57" />
 
 # Results
-Thus, The output waveform of the PSK & QPSK
-
-
-# Hardware experiment output waveform.
+Thus,the modulation and demodulation of PSK and QPSK is verified.
